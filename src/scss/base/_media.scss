@@ -1,0 +1,476 @@
+@media (max-width: 1200px) {
+    .promo {
+        padding: 21px 0 75px 0;
+    }
+    .advantages {
+        padding: 60px 0 68px 0;
+    }
+    .consultation {
+        padding: 70px 0 62px 0;
+        .general_title_left {
+            font-size: 32px;
+        }
+        &__descr {
+            margin-top: 68px;
+            font-size: 17px;
+        }
+        .button_submit {
+            width: 248px;
+            height: 45px;
+            font-size: 15.5px;
+        }
+    }
+    .catalog {
+        margin-top: 55px;
+    }
+    #consultation, #order {
+        width: 350px;
+        min-height: 370px;
+        padding: 26px;
+        &__close {
+            top: 8px;
+            right: 9px;
+            font-size: 30px;
+        }
+        .feed-form input {
+            margin: 0 auto;
+            width: 270px;
+            height: 45px;
+            margin-bottom: 13px;
+            font-size: 13px;
+        }
+        .button_submit {
+            width: 270px;
+            height: 45px;
+            font-size: 13px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .button {
+        &_main { 
+            width: 250px;
+            height: 40px;
+        }
+        &_submit {
+            width: 218px;
+            height: 38px;
+            font-size: 13px;
+        }
+    }
+    .promo {
+        padding: 21px 28px 75px 28px;
+        &__header {
+            &__logo {
+                max-width: 210px;
+            }
+            &__official {
+                span {
+                    font-size: 17px;
+                }
+            }
+            &__phone {
+                font-size: 16px;
+            }
+            margin-top: 15px;
+            font-size: 38px;
+            line-height: 38px;
+        }
+        &__subheader {
+            font-size: 23px;
+            line-height: 23px;
+        }
+        &__link {
+            margin-top: 14px;
+            font-size: 14px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            justify-content: space-around;
+        }
+    }
+    .consultation {
+        padding: 70px 28px 62px 28px;
+        .general_title_left {
+            font-size: 30px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .carousel {
+        padding: 60px 0;
+        &__inner {
+            width: 450px;
+            img {
+                height: 350px;
+            }
+        }
+    }
+    .catalog {
+        .general_title {
+            font-size: 25px;
+        }
+        &__tabs {
+            margin-top: 45px;
+        }
+        &__tab {
+            line-height: 40px;
+            font-size: 14px;
+            width: 190px;
+            height: 40px;
+        }
+        &__content_active {
+            margin-top: 45px;
+            padding: 0 15px;
+            justify-content: center;
+        }
+    }
+    .feed {
+        &__item {
+            padding-left: 28px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .button {
+        width: 130px;
+        height: 25px;
+        font-size: 10px;
+        &_main{
+            width: 225px;
+            height: 39px;
+            font-size: 14px;
+        }
+        &_mini {
+            width: 130px;
+            height: 30px;
+            font-size: 12px;
+        }
+    }
+    .header {
+        &__logo {
+            width: 190px;
+        }
+        &__official {
+            span {
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 13px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 20px;
+            align-items: center;
+        }
+        &__header {
+            font-size: 33px;
+            line-height: 33px;
+        }
+        &__subheader {
+            margin-top: 12px;
+            font-size: 21px;
+            line-height: 21px;
+        }
+        &__icon {
+            font-size: 13px;
+            img {
+                margin-bottom: 14px;
+            }
+        }
+        &__link {
+            margin-top: 12px;
+            font-size: 12px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            font-size: 20px;
+            line-height: 20px;
+            img {
+                margin-bottom: 14px;
+            }
+        }
+        &__descr {
+            margin: 20px 0 42px 0;
+            &:nth-last-child(1) {
+                margin: 20px 0 18px 0;
+            }
+        }
+    }
+    .consultation {
+        padding: 78px;
+        .general_title_left {
+            text-align: center;
+            font-size: 26px;
+        }
+        &__descr {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 16px;
+        }
+        .feed-form {
+            align-items: center;
+        }
+    }
+    .catalog {
+        &__tab {
+            line-height: 36px;
+            font-size: 14px;
+            width: 170px;
+            height: 36px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .button {
+        &_main {
+            margin-top: 50px;
+        }
+    }
+    .header {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        &__logo {
+            position: absolute;
+            width: 270px;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__official {
+            margin-top: 25px;
+            font-size: 10px;
+            span {
+            font-size: 14px;
+            }
+        }
+        &__phone {
+            margin: 25px auto 7px auto;
+            font-size: 12px;
+        }
+        .button {
+            margin: 0 auto;
+            &_main {
+                width: 180px;
+                height: 30px;
+                font-size: 12px;
+            }
+        }
+    }
+    .promo {
+        height: 100vh;
+        background: url(../../img/bg/promo-small.jpg) center (center/cover) no-repeat;
+        &__wrapper {
+            margin-top: 50px;
+        }
+        &__header {
+            font-size: 24px;
+            line-height: 24px;
+        }
+        &__subheader {
+            margin: 0;
+            width: 290px;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+        }
+        &__icons {
+            margin: 60px 0 0 0;
+            width: 200px;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        &__icon {
+            width: 100px;
+            font-size: 11px;
+            margin-bottom: 25px;
+            img {
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .advantages {
+        &__icon {
+            font-size: 17px;
+            line-height: 17px;
+            img {
+                margin-bottom: 8px;
+            }
+        }
+        &__descr {
+            margin-top: 14px;
+        }
+    }
+    .consultation {
+        background: url(../../img/bg/consultation-small.jpg) center (center/cover) no-repeat;
+        padding: 45px 30px 30px 30px;
+        .general_title_left {
+            font-size: 25px
+        }
+        &__descr {
+            margin-top: 40px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        .feed-form {
+            width: 100%;
+            input {
+                width: 220px;
+                height: 38px;
+                font-size: 13px;
+            }
+            .button_submit {
+                width: 175px;
+                height: 32px;
+                font-size: 11px;
+            }
+        }
+    }
+    .carousel {
+        padding: 40px 0;
+        &__inner {
+            width: 300px;
+            img {
+                height: 300px;
+            }
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin: 45px 12px 0;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        &__tab {
+            margin: 5px;
+        }
+        &-item {
+            min-height: 400px;
+            width: 280px;
+            padding: 14px;
+            &__img {
+                height: 170px;
+                max-width: 100%;
+                object-fit: cover;
+            }
+            &__subtitle {
+                margin-top: 10px;
+                font-size: 15px;
+            }
+            &__descr {
+                font-size: 12px;
+            }
+            &__list {
+                li {
+                    font-size: 13px;
+                }
+            }
+            &__price {
+                font-size: 18px;
+            }
+        }
+    }
+    .feed {
+        .general_title {
+            font-size: 24px;
+        }
+        &__item {
+            flex-direction: column;
+            padding-left: 0;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__text {
+            margin-top: 26px;
+            text-align: center;
+        }
+    }
+    .footer {
+        &__info {
+           width: 100%; 
+           height: 180px;
+           padding: 26px 40px;
+        }
+        &__addr {
+            margin-bottom: 24px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__phone {
+            margin-bottom: 24px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 22px;
+            }
+        }
+    }
+    #consultation, #order {
+        width: 300px;
+        min-height: 360px;
+        padding: 14px;
+        .feed-form {
+            width: 220px;
+        }
+        label.error {
+            border: none;
+            text-align: left;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .modal {
+            &__close {
+                right: 6px;
+                font-size: 30px;
+                line-height: 30px;
+            }
+            &__subtitle {
+                margin-top: 15px;
+                font-size: 16px;
+            }
+            &__descr {
+                margin-top: 10px;
+                font-size: 12px;
+                line-height: 12px;
+
+            }
+        }
+    }
+    #thanks {
+        .modal {
+            &__close {
+                right: 6px;
+                font-size: 30px;
+                line-height: 30px;
+            }
+        }
+    }
+    .pageup {
+        bottom: 20px;
+        right: 20px;
+        width: 36px;
+        height: 36px;
+    }
+}

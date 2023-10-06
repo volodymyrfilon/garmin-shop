@@ -1,0 +1,7 @@
+//! FORM VALIDATION
+
+//! MODAL
+
+//! Modal form >>> email.php
+
+//! Smooth scroll animation and pageup
