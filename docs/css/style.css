@@ -4642,7 +4642,7 @@ progress {
 .consultation {
   min-height: 680px;
   padding: 100px 0 92px 0;
-  background: url(../../img/bg/consultation.jpg) center center/cover no-repeat fixed;
+  background: url(../img/bg/consultation.jpg) center center/cover no-repeat fixed;
 }
 .consultation__descr {
   margin-top: 80px;
@@ -5348,7 +5348,7 @@ progress {
     margin-top: 14px;
   }
   .consultation {
-    background: url(../../img/bg/consultation-small.jpg) center center/cover no-repeat;
+    background: url(../img/bg/consultation-small.jpg) center center/cover no-repeat;
     padding: 45px 30px 30px 30px;
   }
   .consultation .general_title_left {
